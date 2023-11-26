@@ -7,12 +7,13 @@ experiência de usuário responsiva e atraente.
 ## Tecnologias Utilizadas 🛠️
 
 <ul>
-<li>HTML5:** Estrutura semântica para a construção do conteúdo.</li>
-<li>CSS3:** Estilização avançada para uma apresentação visual atraente.</li>
-<li>FlexBox:** Layout flexível para facilitar a organização dos elementos.</li>
-<li>Media-queries:** Adaptação responsiva para diferentes tamanhos de tela.</li>
-<li>CSS Grid Layout:** Sistema de layout poderoso para criar designs complexos e responsivos.</li>
+<li>HTML5</li>
+<li>CSS3</li>
+<li>FlexBox</li>
+<li>Media-queries</li>
+<li>CSS Grid Layout</li>
 </ul>
+
 ## Personalizações  🎨
 
 Inspirado pelo curso da Origamid, adicionei meu toque pessoal ao incluir uma imagem de destaque que oferece uma prévia visual dos projetos
