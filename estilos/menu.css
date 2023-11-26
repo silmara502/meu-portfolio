@@ -9,7 +9,7 @@ header{
 }
 .header-menu{
     display: flex;
-    gap: 10px;
+    gap: 40px;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -17,17 +17,46 @@ header{
 .header-menu a{
     font-size: 1.12rem;
     line-height: 1.3rem;
-    padding: 10px 20px;
+    padding: 16px 0px;
     color: black;
     display: block;
-    border-radius: 2px;
+    border-bottom: 1px solid white;
+    position: relative;
 }
-.header-menu a:hover{
-    background: black;
-    color: white;
+.header-menu a:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0px;
+    background: red;
+    margin-top: 4px;
+    transition: 0.3s;
+    position: absolute;
+  }
+  .header-menu a:hover:after{
+   width: 100%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
+    .header-menu {
+        gap: 20px;
+      }
+      .header-menu a {
+        padding: 12px 16px;
+        border-radius: 4px;
+      }
+         .header-menu a:after {
+        display: none;
+      }
+      .header-menu a:hover {
+        background-color: black;
+        color: white;
+      }
+   
+    }
+
+
+   @media (max-width: 700px) {
     header{
         flex-direction: column;
         gap: 25px;

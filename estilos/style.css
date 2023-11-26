@@ -21,21 +21,25 @@ a{
 img{
     max-width: 100%;
     display: block;
+
+}
+.font-1-xl {
+    font: 600 2rem/1.25 "Poppins", sans-serif;
+}
+.foto-mara{
     border-radius: 50%;
 }
-
-
  .subtitulo{
-    font-size: 8rem;
+    font-size: 4.1rem;
     line-height: 1;
-    word-break: break-all;
-    max-width: 4ch;
 }
 @media (max-width: 800px) {
-    .subtitulo{
+    .subtitulo,
+    .subtitulo-formacao{
         font-size: 2.0rem;
         text-transform: capitalize;
         max-width: initial !important;
+        text-align: center;
     }
 } 
 @media (max-width: 400px) {

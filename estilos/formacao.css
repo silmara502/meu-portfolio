@@ -17,7 +17,7 @@
     max-width: 5ch;
 }
 .formacao-texto{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 1.33;
     max-width: 40ch;
     margin-bottom: 60px;
@@ -105,9 +105,11 @@
         padding: 60px 20px;
         gap: 40px;
 }
-.formacao .subtitulo{
+.formacao .subtitulo-formacao{
     color: white;
+
 }
+
 .formacao-texto{
     font-size: 1.25rem;
     max-width: initial;

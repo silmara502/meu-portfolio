@@ -19,7 +19,7 @@
 .introducao h1::before{
     content: "";
     display: block;
-    width: 10px;
+    width: 5px;
     height: 90px;
     background: red;
     position: absolute;
@@ -46,9 +46,9 @@
         font-size: 2rem;
     }
     .introducao h1::before{
-        width: 30px;
-        height: 10px;
-        top: -6px;
+        width: 25px;
+        height: 5px;
+        top: -3px;
         left: 0px;
     }
     .introducao h1{
@@ -57,8 +57,7 @@
         font-size: 0.90rem;
     }
 }
-
-    
+  
 
 @media (max-width: 400px) {
     .introducao{
@@ -74,7 +73,7 @@
         font-size: 0.875rem;
         text-align: center;
         justify-self: center;
-        grid-template-columns: 1fr;
+        
        
     }
 
